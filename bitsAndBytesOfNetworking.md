@@ -65,4 +65,7 @@ Ethernet is a Datalink layer level protocol.
   voltage across the cable to send signals, when used for computer
   networks this type of modulation is called *Line Coding*
 
+**Why are twisted pair cables twisted?**
+* The twisting helps protect against electromagnetic interference and
+  cross-talk from other cables. 
 
