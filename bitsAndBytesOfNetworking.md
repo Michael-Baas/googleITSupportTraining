@@ -4,13 +4,23 @@
 
 A 5 layer stack comprised of the following layers
 
-5. Application
-4. Transport
-3. Network
-2. Data Link
-1. Physical
+5. Application - protocols that are used for the applications your using
+   (HTTPS for a browser, SMTP for a mail app, etc)
+4. Transport - Sorts out which client and server programs are supposed
+   to get that data
+3. Network - Allows different networks to communicate with each other
+   through devices known as routers
+2. Data Link - Responsible for defining a common way of interpreting
+   these signals so network devices can communicate
+    * Ethernet is a common protocol used by the Data Link layer
+1. Physical - Represents the physical devices that interconnect
+   computers
 
 ![TCP/IP Network Model](fiveLayerModel.png)
+
+`What is UDP and how is it different from TCP?`
+
+* UDP stands for User Datagram Protocol, and differs from TCP by not providing mechanisms to ensure that data is reliably delivered.
 
 `What is the OSI model and why is it important?`
 
@@ -44,9 +54,15 @@ A 5 layer stack comprised of the following layers
 1. Physical Layer
   * The physical layer is responsible for the physical cable or wireless connection between network nodes. It defines the connector, the electrical cable or wireless technology connecting the devices, and is responsible for transmission of the raw data, which is simply a series of 0s and 1s, while taking care of bit rate control.
 
-Acronyms to remember the layers: 
+### Acronyms to remember the layers:
 Please Do Not Throw Away Sausage Pizza - Bottom to Top (physical to Application)
 All People Seem to Need Data Processing - Top to bottom
 
 Ethernet is a Datalink layer level protocol.
+
+`How are data transmitted across a copper wire?`
+* Through a process called Modulation, which is a way of varying the
+  voltage across the cable to send signals, when used for computer
+  networks this type of modulation is called *Line Coding*
+
 
