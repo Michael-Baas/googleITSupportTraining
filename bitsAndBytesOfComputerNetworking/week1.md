@@ -67,5 +67,5 @@ Ethernet is a Datalink layer level protocol.
 
 **Why are twisted pair cables twisted?**
 * The twisting helps protect against electromagnetic interference and
-  cross-talk from other cables. 
+  cross-talk from other cables.
 
