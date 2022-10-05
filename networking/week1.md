@@ -16,11 +16,7 @@ A 5 layer stack comprised of the following layers
 1. Physical - Represents the physical devices that interconnect
    computers
 
-<<<<<<< HEAD:networking/week1.md
 ![TCP/IP Network Model](../img/fiveLayerModel.png)
-=======
-![TCP/IP Network Model](../fiveLayerModel.png)
->>>>>>> a46d264520a34fe7ce4d44243375c8d33f8809b0:bitsAndBytesOfComputerNetworking/week1.md
 
 `What is UDP and how is it different from TCP?`
 
