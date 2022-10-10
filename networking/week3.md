@@ -58,6 +58,40 @@
 * A handshake that's meant to close the connection.
 ![Four Way Handhake](../img/fourWayHandshake.png)
 
+`What is a Socket?`
+* The instantiation of an end-point in a potential TCP connection
+
+`What is an instantiation?`
+* The actual implementation of something defined elsewhere
+
+`How is a port different from a socket?`
+* A port is more of a virtual descriptive thing; you can send traffic to
+  any port you want, but you're only going to get a response if a
+  program has opened a socket on that port. 
+
+`What are some common TCP socket states and what do they mean?`
+* LISTEN | A TCP socket is ready and listening for incoming connections
+* SYN_SENT | A synchronization request has been sent, but the connection
+  hasn't been established yet
+* SYN_RECEIVED | A socket previously in a LISTEN state has received a
+  synchronization request and sent a SYN/ACK back
+* ESTABLISHED | The TCP connection is in working order and both sides
+  are free to send each other data
+* FIN_WAIT | A FIN has been sent, but the corresponding ACK from the
+  other end hasn't been received yet
+* CLOSE_WAIT | The connection has been closed at the TCP layer, but
+  that the application that opened the socket hasn't released its hold on the
+  socket yet
+* CLOSED | The connection has been fully terminated and that no
+  communication is possible
+
+`What is a Connection-oriented protocol?`
+* Establishes a connection, and uses this to ensure that all data has
+  been properly transmitted
+
+
+
+  
 
 
 
